@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02.02 Servindo tags para conteudo</title>
+</head>
+
+<!-- Utilizar a extensao do chrome chamada HMTL5 outliner para ver a estrutra hmtl
+        <h1> até a <h6> para titulos e sub titulos
+        tudo que esta no body vai aparecer no corpo da aplicaçao
+        <p> para dividir paragrafos -->
+<body>
+
+<header><!--Aqui vai o Logo e Menu -->
+
+    <nav><!-- essa tag mostra que é um menu sempre bom fazer uma lista não ordenada-->
+
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">A Empresa</a></li>
+            <li> <a href="#">Quem Somos</a></li>
+            <li> <a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main><!-- Aqui vai o Conteudo  -->
+
+    <article><!-- essa tag é para colocar artigo, produto...-->
+        <header>
+            <h1>Os melhores e mais completos cursos de Programação, Empreendedorismo e Marketing Digital.</h1>
+        </header>
+        <div>
+    <p>Tudo começou há mais de 10 anos quando o nosso CEO (Robson V. Leite) criou um blog para falar sobre programação. Começou com pequenos tutoriais e a demanda foi crescendo com o tempo…</p>
+
+    <h2>Series</h2>
+    <p>Com a notoriedade que o blog ganhou, ele decidiu criar um curso com tudo o que ele sabia sobre programação web e posteriormente veio as séries, um conjunto de cursos pensado para levar o aluno do ponta A ao ponto B.</p>
+
+    <h3>Serie Pro</h3>
+    <p>A Série Pro foi uma das primeiras, contemplava três cursos completos, com projeto prático ao término de cada curso e com o retorno positivo de quem queria saber mais sobre esse universo, acabou criando o Work Series, que estão no mercado a anos e mesmo com todo esse tempo e o avanço das linguagens os cursos são renomados até hoje e possuem um conteúdo incrível.</p>
+
+    <h3>Work Series
+    </h3>
+    <p>Depois de anos com os cursos Work Series no mercado, surgiu o projeto e produção com uma ferramenta monstruosa que sintetizava todos os ensinamentos dos cursos Work Series e entregava um projeto prático denominado WorkControl, que mais tarde se tornou o nosso treinamento WorkControl® Developer Certification que hoje conta com mais de 1000 profissionais certificados e que temos o orgulho de ser o primeiro CMS FullStack Privado com registro no INPI.</p>
+    <p>Os esforços na parte de Empreendedorismo e Marketing Digital não cessam, afinal, acreditamos que não basta saber programar, tem que saber gerar resultados tanto para você como desenvolvedor, como para o seu cliente! Com isso, temos cursos lançados para essas categorias em específico:</p>>
+
+    <!--quando for lista nao ordenada usamos  a tag <ul> <li>-->
+    <ul> <li> Facebook Ads</li>
+        <li>Active Campaing</li>
+        <li>Mindset Empreendedor</li>
+        <li> Web Master Business</li>
+        <ul>
+            <li>Subitem</li>
+            <li>Subitem</li>
+            <ul>
+                <li>Subitem</li>
+                <li>Subitem</li>
+                <li>Subitem</li>
+            </ul>
+            <li>Subitem
+                <ol><li>Subitem</li>
+                    <li>Subitem</li>
+                    <li>Subitem</li>
+                </ol>
+            </li>
+            <li>Subitem</li>
+        </ul>
+        <li>YouTube Ads</li></ul>
+
+    <!--quando for lista ordenada usamos a tag <ol> <li>
+    podemos usar as listas dentro das outras e ir mesclando
+    pode usar tambe  o paramentro reversed para alterar as ordens
+    se usar dentro da tag start="um numero " começa a ordem por esse numero
+    pode ser colocado tambem 1 para representar numeros - A, a para que mostre a, b, c, ... I, i algorismo romano
+    tag <br> quebra a linha
+    link é a tag <a href>
+    outro parametro é o target="_blank"para abrir outra aba
+    sempre usar a tag title="treinamentos " - e alt="treinamentos" - pode sem ser igual
+
+    -->
+    <ol start="1" type="a"> <li> Facebook Ads</li>
+        <li>Active Campaing
+            <ul><li>Subitem</li>
+                <li>Subitem</li>
+                <li>Subitem</li>
+            </ul>
+        </li>
+        <li>Mindset Empreendedor</li>
+        <li> Web Master Business</li>
+        <li>YouTube Ads</li></ol>
+    <p>Com o surgimento do <a href="https://www.fratelliti.com.br" target="_blank">Club</a>, criamos cursos focados no mercado, 100% práticos com metodologia testada e aprovada e embora possuam uma classificação Essentials, são cursos bastante abrangentes que abordam todo o conhecimento necessário que um webmaster precisa ter para atuar no dia a dia sem problemas pertinentes e possa desenvolver soluções personalizadas para seus clientes.</p>
+        </div>
+        <footer>
+            <p>Douglas</p>
+        </footer>
+    </article>
+    <section>
+        <header>
+            <h1>As Mais Lidas do blog</h1>
+        </header>
+        <article>
+            <header>
+                <h1>Noticia 1</h1>
+                <p>Texto descritivo da minha noticia</p>
+            </header>
+        </article>
+        <article>
+            <header>
+                <h1>Noticia 2</h1>
+                <p>Texto descritivo da minha noticia</p>
+            </header>
+        </article>
+        <article>
+            <header>
+                <h1>Noticia 3</h1>
+                <p>Texto descritivo da minha noticia</p>
+            </header>
+        </article>
+        <article>
+            <header>
+                <h1>Noticia 4</h1>
+                <p>Texto descritivo da minha noticia</p>
+            </header>
+        </article>
+    </section>
+</main>
+
+<aside>
+    <header>
+        <h1>Siderbar</h1>
+    </header>
+</aside>
+<footer>
+    rodapé
+    Paginas do site
+    Links Legais
+    Dados
+    Formas de contato
+</footer>
+
+</body>
+</html>
