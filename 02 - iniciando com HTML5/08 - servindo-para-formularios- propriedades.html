@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02.08 Servindo tags para Formularios Propriedades</title>
+    
+</head>
+
+
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend> Meu formulario</legend>
+                <p>
+                    Insira seu nome: <input type="text" name="" required placeholder="Digite seu nome completo" readonly="">
+                </p>
+
+                <p>
+                    Insira seu CPF: <input type="text" name="" required placeholder="Digite seu nome CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                </p>
+
+
+                <p>
+                    Insira seu e-mail <input type="email" required="" disabled="">
+                </p>
+
+                <p>
+                    Insira sua senha <input type="password" required="required" placeholder="Digite uma senha segura">
+                </p>
+
+                <p> Insira o sexo <br>
+                    <input type="radio" name="Sexo"> Masculino<br>
+                    <input type="radio" name="Sexo">Feminino
+                </p>
+
+                <p>
+                    Insira sua tecnologia preferida<br>
+                    <input type="checkbox" checked="">HTML5<br>
+                    <input type="checkbox">CSS3<br>
+                    <input type="checkbox">PHP<br>
+                    <input type="checkbox">JQEURY<br>
+                </p>
+
+                <p>
+                    Selecione um arquivo <input type="file">
+                </p>
+
+                <p>
+                    Informe uma URL <input type="url">
+                </p>
+
+                <p>
+                    Selecione um curso <br>
+                    <select>
+                        <optgroup label="Curso de Desenvolvimento">
+                        <option>HTML% e CSS Essentil</option>
+                            <option>GIT </option>
+                        </optgroup>
+
+                        <optgroup label="Curso de Programacao">
+                        <option>jQUERY Essentil</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    Range: <input type="range">
+                </p>
+
+                <p>
+                    Color Pick: <input type="color">
+                </p>
+
+                <p>
+                    Date: <input type="date">
+                </p>
+
+                <p>
+                    Time: <input type="time">
+                </p>
+
+                <p>
+                    datetime: <input type="datetime-local">
+                </p>
+
+                <p>
+                    month: <input type="month">
+                </p>
+
+                <p>
+                    week: <input type="week">
+                </p>
+
+                <p>
+                    <button type="submit">Validar</button>
+                    <button type="reset">limpar campos</button>
+                </p>
+
+
+            </fieldset>
+        </form>
+    </main>
+
+
+</body>
+</html>
