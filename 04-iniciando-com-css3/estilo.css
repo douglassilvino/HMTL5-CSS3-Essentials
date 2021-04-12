@@ -1,0 +1,43 @@
+.main_blog {
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
+    background: #ccc;
+    padding: 40px; /**aqui eh o espacamento interno**/
+    margin: 0 auto;/**aqui eh o espacamento externo**/
+    display: flex;/**aqui o conteudo ficou nas laterais**/
+    flex-wrap: wrap; /**quebrou a escrita e colocou um abaixo do outro**/
+    justify-content: space-between; /**aqui separou os quadrados **/
+}
+
+.main_blog header{
+    flex-basis: 100%; /**aqui ele fica 100% de largura **/
+}
+
+.main_blog article {
+    flex-basis: calc(50% - 40px - 20px);/**separou os quadrados da secao principal em cima baixo e lateral**/
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article p{
+    font-size: 1.1em;
+}
+
+.title_medium_lightgray{
+    color: #ccc;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+
+@media(max-width: 640px) {/**aqui é o ponto que esta quabrando a pagina para o responsivo nesse caso quebra no 640px **/
+    .main_blog article{
+        flex-basis: calc(100% - 40px);
+    }
+
+}
+
+
