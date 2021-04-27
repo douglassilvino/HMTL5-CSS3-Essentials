@@ -373,7 +373,8 @@
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    color: white;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .main_school_content_right{
