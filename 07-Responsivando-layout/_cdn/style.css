@@ -510,6 +510,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 
+
 }
 
 .main_tutor_social_network > header {
@@ -757,35 +758,57 @@
         font-size: 0.9em;
         line-height: 2em;
     }
+    .main_tutor_social_network h2{
+        margin-bottom: 20px;
+    }
+    .main_tutor_social_network{
+        max-width: 80%;
+    }
+    .main_tutor_social_network > article{
+        flex-basis: 49%;
+        margin-bottom: 20px;
+    }
 
 
 }
 /*640px*/
 @media (max-width: 40em) {
-    .main_blog article{
+    .main_blog article {
         flex-basis: calc(50% - 10px);
     }
-    .main_optin_content form{
+
+    .main_optin_content form {
         flex-wrap: wrap;
     }
-    .main_optin_content form input[type=text], .main_optin_content form input[type=email]{
+
+    .main_optin_content form input[type=text], .main_optin_content form input[type=email] {
         flex-basis: 100%;
         margin-bottom: 10px;
     }
-    .main_optin_content form button{
+
+    .main_optin_content form button {
         margin: 0 auto;
         padding: 6px 12px;
     }
-    main_course_rating_content_title h2{
+
+    .main_course_rating_content_title h2 {
         font-size: 1.6em;
     }
-    .main_course_rating_content_comment>header{
+
+    .main_course_rating_content_comment > header {
         font-size: 1.2em;
     }
-    .main_course_rating_content_comment article{
+
+    .main_course_rating_content_comment > article {
         flex-basis: 100%;
     }
 
+}
+/*580px*/
+@media (max-width: 32em){
+    .main_tutor_social_network > article {
+        flex-basis: 100%;
+    }
 }
 /*520px*/
 @media (max-width: 32em){
@@ -814,10 +837,10 @@
         flex-basis: calc(100% - 220px);
     }
 
-    .main_blog article{
+    .main_blog > article{
         flex-basis: 100%;
     }
-    .main_course_content article{
+    .main_course_content > article{
         flex-basis: calc(100% - 40px);
         margin: 10px 0;
     }
